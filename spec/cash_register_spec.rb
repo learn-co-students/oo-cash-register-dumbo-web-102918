@@ -64,7 +64,7 @@ describe 'CashRegister' do
       end
     end
   end
-
+  
   describe '#items' do
     it 'returns an array containing all items that have been added' do
       new_register = CashRegister.new
